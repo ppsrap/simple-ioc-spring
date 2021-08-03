@@ -7,8 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc-framework" />
-        <module name="example" />
+        <module name="sample-spring" />
+        <module name="mysample" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="example" target="8" />
+      <module name="mySample-spring" target="8" />
+      <module name="sample" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

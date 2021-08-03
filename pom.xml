@@ -11,6 +11,8 @@
     <modules>
         <module>example</module>
         <module>mvc-framework</module>
+        <module>sample-spring</module>
+        <module>mysample</module>
     </modules>
 
     <properties>
