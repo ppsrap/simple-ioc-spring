@@ -1,6 +1,0 @@
-<beans>
-    <bean id="user" class="com.example.spring.ioc.com.example.spring.ioc.beans.User">
-        <property name="name" value="Michelin"/>
-        <property name="age" value="18"/>
-    </bean>
-</beans>
