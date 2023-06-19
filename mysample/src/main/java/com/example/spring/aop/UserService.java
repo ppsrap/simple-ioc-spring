@@ -1,8 +1,6 @@
 package com.example.spring.aop;
 
-public interface HelloService {
+public interface UserService {
     void sayHello();
-
     void sendMessage();
-
 }

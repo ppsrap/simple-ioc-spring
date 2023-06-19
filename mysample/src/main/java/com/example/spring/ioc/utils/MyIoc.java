@@ -17,6 +17,8 @@ import java.util.Map;
 import java.util.Set;
 
 public class MyIoc {
+    /*IOC主要负责创建对象以及管理生命周期,控制反转是一种设计思想，而依赖注入则是实现控制反转思想的方法。
+IOC容器一般依赖注入有三种：构造函数注入、方法注入、属性注入*/
     Map<String, Object> beansMap = new HashMap<>(); // bean 容器
 
     private static final Logger LOGGER = LoggerFactory.getLogger(MyIoc.class);

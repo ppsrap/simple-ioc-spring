@@ -1,10 +1,9 @@
 package com.example.spring.aop;
 
-
 import com.example.spring.ioc.annonation.Init;
 import com.example.spring.ioc.annonation.Inject;
 
-public class HelloServiceImpl implements HelloService {
+public class UserServiceImpl implements UserService {
     @Inject
     private MessageService messageService;
 

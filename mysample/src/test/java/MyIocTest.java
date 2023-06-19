@@ -12,7 +12,18 @@ public class MyIocTest {
         User user = ctx.getBean("user", User.class);
         Table table = ctx.getBean("table", Table.class);
         DIBean dibean = ctx.getBean("dibean", DIBean.class);
+
+        System.out.println("-------------------------------------------------");
+        System.out.println(user.getName());
+        System.out.println(user.getAge());
+        System.out.println(user.getClass());
+        System.out.println("-------------------------------------------------");
+        System.out.println(table.getId());
+        System.out.println(table.getTableName());
+        System.out.println(table.getClass());
+        System.out.println("-------------------------------------------------");
         System.out.println(dibean.table);
         System.out.println(dibean.user);
+        System.out.println(dibean.getClass());
     }
 }

@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>example</module>
-        <module>mvc-framework</module>
-        <module>sample-spring</module>
+        <!--<module>example</module>-->
+        <!--<module>mvc-framework</module>-->
+        <!--<module>sample-spring</module>-->
         <module>mysample</module>
     </modules>
 
